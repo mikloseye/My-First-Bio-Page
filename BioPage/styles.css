@@ -1,0 +1,260 @@
+p {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 14.8px;
+}
+
+h2 {
+    font-family: 'Lavishly Yours';
+    font-size: 4.5rem;
+    color: #333;
+}
+
+
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.top h1 {
+    width: 10%;
+    display: inline;
+    font-family: 'Lavishly Yours';
+    font-size: 4.5rem;
+    color: #333;
+    line-height: 0.8;
+}
+
+.top {
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url(images/mountains.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 200px;
+}
+
+.top h3 {
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 20px;
+    color: #333;
+    font-size: 2.1rem;
+}
+
+.web {
+    font-style: italic;
+    margin-right: 3px;
+    color: cornsilk;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 490px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 0px;
+}
+
+
+@media(max-width:840px) {
+    .top-cloud {
+        transition: ease-out 0.5s;
+        opacity:0;
+    }
+
+    .top h1 {
+        font-size:50px;
+    }
+
+    .top h3 {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width:920px) {
+    .bottom-cloud {
+        transition: ease-out 0.5s;
+        opacity:0;
+    }
+    
+}
+
+
+/* MAIN */
+
+#main h2 {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 3rem;
+    color: #222;
+}
+
+.skill-row h3 {
+    font-family: 'Nunito';
+    color: #30e3cb;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row p {
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.skill-row .img2 {
+    width: 50%;
+    float: right;
+    margin-left: 40px;
+}
+
+@media (max-width:700px) {
+    .skill-row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill-row img,
+    .skill-row .img2 {
+        width: 100%;
+    }
+    
+}
+
+/* CONTACT */
+
+#contact {
+    background-color: rgba(63, 127, 191, 0.3);
+    height: 120vh;
+}
+
+#contact h2 {
+    padding-top: 80px;
+    font-size: 3rem;
+    color: #333;
+}
+
+#contact h3, label {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-control input {
+    border: 2px solid #3F7FBF;
+    border-radius: 4px;
+    padding: 10px;
+    width: 30%;
+}
+
+.submit {
+    display: inline-block;
+    color: #222;
+    background-color: ffd;
+    padding: 0.8rem 1.5rem;
+    width: 15%;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 30px;
+   
+}
+
+.submit:hover {
+    background-color: #3F7FBF;
+    transition: ease-in-out 0.2s;
+    color: #fff;
+}
+
+@media(max-width:1120px) {
+    .form-control input {
+        width: 60%;
+    }
+
+    .submit {
+        width: 40%;
+    }
+}
+
+
+#footer {
+    padding-top: 50px;
+}
+
+.fa-brands {
+    cursor: pointer;
+    color: #3F7FBF;
+    padding: 1%;
+}
+
+.fa-brands:hover {
+    color:#143AB7
+}
+
+/* 
+
+function getMilk(money, costPerBottle) {
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+
+    console.log("buy " + calcBottles(money, 2.5) + " bottles of milk");
+
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+
+    return calcChange(money, 1.5);
+}
+
+function calcBottles(startingMoney, costPerBottle) {
+
+    var numberOfBottles = Math.floor(startingMoney / 1.5);
+
+    return numberOfBottles;
+}
+
+function calcChange(startingAmount, costPerBottle) {
+    var change= startingAmount % costPerBottle;
+    return change;
+}
+
+console.log("Hello master, here is your " + getMilk(10, 3) + " change");
+
+*/ 
+
+
