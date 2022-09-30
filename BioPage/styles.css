@@ -213,48 +213,4 @@ body {
     color:#143AB7
 }
 
-/* 
-
-function getMilk(money, costPerBottle) {
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
-
-    console.log("buy " + calcBottles(money, 2.5) + " bottles of milk");
-
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
-
-    return calcChange(money, 1.5);
-}
-
-function calcBottles(startingMoney, costPerBottle) {
-
-    var numberOfBottles = Math.floor(startingMoney / 1.5);
-
-    return numberOfBottles;
-}
-
-function calcChange(startingAmount, costPerBottle) {
-    var change= startingAmount % costPerBottle;
-    return change;
-}
-
-console.log("Hello master, here is your " + getMilk(10, 3) + " change");
-
-*/ 
-
 
